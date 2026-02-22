@@ -28,9 +28,24 @@
     {"id": "prod-59c88a26-022", "name": "Basic Item 22", "category": "books", "price": 23.05, "stock": 36, "rating": 2.3}
   ],
   "aggregations": {
-    "home": {
-      "count": 6,
-      "inventoryValue": 231029.51
-    }
+  "home": {
+    "count": 6,
+    "inventoryValue": 231029.51
+  },
+  "electronics": {
+    "count": 2,
+    "inventoryValue": 29175.89
+  },
+  "clothing": {
+    "count": 4,
+    "inventoryValue": 110284.78
+  },
+  "sports": {
+    "count": 8,
+    "inventoryValue": 164879.35
+  },
+  "books": {
+    "count": 3,
+    "inventoryValue": 60038.2
   }
 }
